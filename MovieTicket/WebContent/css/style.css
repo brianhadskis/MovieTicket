@@ -1,0 +1,96 @@
+@charset "ISO-8859-1";
+
+html, body{
+	margin-left:15px; margin-right:15px; 
+	padding:0px; 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	background-color: #383838;
+	color: #ffffff;
+}
+ 
+#wrapper {width: 100%; margin-top: 0px; }
+header {width: 80%; background: #0775d3; margin-top: 0px; padding:15px 0px 15px 0px;}
+header h2 {width: 100%; margin:auto; color: #FFFFFF;}
+main {width: 100%; margin:auto}
+main h3 {color: #000;}
+main #adminMain {margin-top: 20px;}
+
+a:link, a:visited {
+	color: #fefeff;
+	background-color: #5566ff;
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a:hover, a:active {
+	background-color: #7788ff;
+}
+
+.movieTime {
+	border: 1px solid #555; 
+	border-radius: 5px; 
+	padding: 4px; 
+	font-size: 12px;
+	font-weight: bold;
+	width: 80px; 
+	padding: 5px 10px; 
+	
+	margin-bottom: 15px;
+	background: #ccccee;
+}
+
+#movieFinder {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	height: 240px;
+	
+
+}
+
+#movieSelector {
+	display: flex;
+	flex-direction: column;
+	background-color:#efefef;
+	margin: 5px;
+	padding: 5px;
+	width: 320px;
+	position: relative;
+	z-index: 2;
+}
+
+#timeSelector {
+	display: flex;
+	flex-direction: column;
+	background-color:#efefef;
+	margin: 5px;
+	padding: 5px;
+	padding-left: 40px;
+	right: 0px;
+	width: 160px;
+	position: absolute;
+
+}
+
+#selectMovieTitle {
+	width: 300px;
+	font-size: 16px;
+}
+
+#selectMovieDate {
+	width: 300px;
+	font-size: 16px;
+}
+
+.browse {
+	display: flex;
+	flex-direction: column;
+}
+
+#browseContent {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
